@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "commonjs",
+    "outDir": "dist",
+    "sourceMap": true,
+    "lib": ["es2018", "dom"],
+    "resolveJsonModule": true,
+    "declaration": true,
+    "noImplicitAny": false
+  },
+  "include": [
+    "./src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
+  "lib": [
+    "dom",
+    "es2018"
+  ]
+}

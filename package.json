@@ -1,0 +1,16 @@
+{
+  "name": "dllist",
+  "version": "1.0.0",
+  "description": "A Circulair Doubly Linked List for NodeJS, written in TypeScript",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "node ./dist/test.js",
+    "compile": "tsc"
+  },
+  "author": "Dennis Vriend <dennisvriend@dennisvriend.nl> (www.dennisvriend.nl)",
+  "license": "Apache-2.0",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^10.12.12"
+  }
+}
